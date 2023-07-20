@@ -15,3 +15,25 @@ body{
   font-size: 20px;
   color: whitesmoke;
 }
+
+.cardContainer{
+  width: 300px;
+  height: 300px;
+  margin: 50px;
+  font-size: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 45px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#shipCardsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2%;
+}
